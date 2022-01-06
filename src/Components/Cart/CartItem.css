@@ -1,0 +1,17 @@
+.cart-item{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 4px;
+    margin-bottom: 20px;
+    padding:0 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+}
+.cart-item img{
+    width: 50px;
+}
+
+.cart-item input{
+    width: 100px;
+}

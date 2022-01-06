@@ -1,0 +1,14 @@
+.back_drop{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(8, 8, 43,.4);
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (min-width:992px) {
+    .back_drop{
+        display: none;
+    }
+ }

@@ -1,0 +1,18 @@
+.product-detail{
+    max-width: 1232px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.product-image img{
+    width: 450px;
+}
+.product-detail-info .name{
+    font-size: 1.2rem;
+
+}
+
+.product-detail-info .price{
+    font-weight: bold;
+    color: chartreuse;
+}

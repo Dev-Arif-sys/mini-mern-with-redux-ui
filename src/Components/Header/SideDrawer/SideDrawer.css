@@ -1,0 +1,47 @@
+.side_drawer{
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: .6s transform ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showSideDrawer{
+  transform: translateX(0%);
+}
+
+.side_drawer_menu{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.side_drawer_menu *{
+    text-decoration:  none;
+    color:#212529 ;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px;
+     
+}
+
+.side_drawer_menu *:hover{
+    color: black;
+    background-color: rgb(175, 162, 162);
+}
+
+@media only screen and (min-width:992px) {
+   .side_drawer{
+       display: none;
+   }
+}
